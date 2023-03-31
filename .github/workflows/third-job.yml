@@ -6,6 +6,7 @@ jobs:
   my-third-job:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Hello
         run: |
           echo "Hello third world!"
